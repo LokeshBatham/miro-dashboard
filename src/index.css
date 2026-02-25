@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-board-bg: #f8f9fa;
+  --color-board-grid: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-board-bg);
+  background-image: radial-gradient(var(--color-board-grid) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
