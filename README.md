@@ -71,3 +71,15 @@ export default defineConfig([
   },
 ])
 ```
+
+- Frontend    
+    - npm install  -> dependencies install
+    - npm run build
+    - sudo apt update
+    - sudo apt install nginx
+    - sudo systemctl start nginx
+    - sudo systemctl enable nginx
+    - Copy code from dist(build files) to /var/www/html/
+    - sudo scp -r dist/* /var/www/html/
+    - Nginx port is not running on public IP add the port 80 to Instence Security -> Security Groups -> Add Inbound Rules
+    - Enable port :80 of your instance
